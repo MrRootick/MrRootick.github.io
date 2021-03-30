@@ -10,6 +10,6 @@ if (name!='' && address!='' && tel!='' && mail!=''){
 	document.getElementById('str4').innerHTML="Вы ввели почту: "+mail;
 }
 else {
-	document.getElementById('str1').innerHTML="Не все поля заполнены";
+	alert("Не все поля заполнены");
 	};
 }
